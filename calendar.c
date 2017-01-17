@@ -1,7 +1,7 @@
 // A program which shows 'hello, world' on my screen
 #include <stdio.h>
 #include <time.h>
-void calender();
+void calendar();
 int is_leap_year(int y, int m);
 int month_last_day(int y, int m);
 int week_of_day(int y, int m);
@@ -9,13 +9,13 @@ int week_of_day(int y, int m);
 
 int main(void) {
 	
-	calender();
+	calendar();
 
 	return 0;
 }
 
 
-void calender() {
+void calendar() {
 	
 	int i; 
 	int w, last_day;
