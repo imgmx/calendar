@@ -1,4 +1,4 @@
-// A program which shows 'hello, world' on my screen
+
 #include <stdio.h>
 #include <time.h>
 void calendar();
